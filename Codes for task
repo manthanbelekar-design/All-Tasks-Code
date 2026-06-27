@@ -1,4 +1,4 @@
-Task 2- Task 2: Write python code to read text (Code)
+ Task 2: Write python code to read text (Code)
 import tkinter as tk
 from tkinter import filedialog
 
@@ -26,3 +26,17 @@ text_area.pack(expand=True, fill="both")
 
 root.mainloop()
 
+Task 3: write code to display "jpg" file using cv2 (code)
+import cv2
+
+# Read JPG image
+img = cv2.imread("image.jpg")
+
+# Display image
+cv2.imshow("JPG Image", img)
+
+# Wait until a key is pressed
+cv2.waitKey(0)
+
+# Close window
+cv2.destroyAllWindows()
